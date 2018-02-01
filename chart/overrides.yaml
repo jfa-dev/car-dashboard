@@ -8,8 +8,10 @@ hpa:
   enabled: false
 cloud_services:
   conversation:
-    credentials: <Conversation service instance credentials JSON>
-    workspace: <Conversation Workspace ID>
+    credentials: '{"url": "https://gateway.watsonplatform.net/conversation/api",
+        "username": "63ac845c-45da-4043-b7ed-93797c5f60b1",
+        "password": "LrZ2LqU58LNy"}'
+    workspace: "dc8f2a15-52d0-42a4-b553-8dd8b23c3828"
   speech_to_text:
     credentials: <Speech-to-Text service instance credentials JSON>
   text_to_speech:
